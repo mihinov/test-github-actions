@@ -40,7 +40,7 @@ jobs:
 
       - name: Build
         run: |
-          npm run build:github
+          npm run build
 
       - name: Lint
         run: |
