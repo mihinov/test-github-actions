@@ -18,10 +18,10 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install and build
-        run: npm install && npm run build:github && cp dist/angular-crash/index.html dist/angular-crash/404.html
+        run: npm install && npm run build:github
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: angular-crash-2021/dist/angular-crash # The folder the action should deploy.
+          folder: dist/test-github-actions # The folder the action should deploy.
