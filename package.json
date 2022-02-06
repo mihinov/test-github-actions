@@ -8,7 +8,8 @@
     "build:github": "ng build --configuration github --base-href /test-github-actions/",
 		"deploy": "ng deploy --build-target=github --base-href=/test-github-actions/",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+		"lint": "ng lint"
   },
   "private": true,
   "dependencies": {
