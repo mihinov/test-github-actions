@@ -68,4 +68,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist/test-github-actions # The folder the action should deploy.
-					ssh-key: ${{ secrets.TOKEN_GITHUB_ACTION }}
