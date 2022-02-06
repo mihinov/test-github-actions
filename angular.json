@@ -126,7 +126,12 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+					"options": {
+						"baseHref": "test-github-actions",
+						"name": "mihinov",
+						"email": "kamahinmihail@gmail.com"
+					}
         }
       }
     }

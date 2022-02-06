@@ -6,7 +6,7 @@
     "start": "ng serve --open",
     "build": "ng build",
     "build:github": "ng build --configuration github --base-href /test-github-actions/",
-		"deploy": "ng deploy --build-target=github --base-href=/test-github-actions/",
+		"deploy": "ng deploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
 		"lint": "ng lint"
