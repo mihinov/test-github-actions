@@ -128,6 +128,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
 					"options": {
+						"buildTarget": "github",
 						"baseHref": "test-github-actions",
 						"name": "mihinov",
 						"email": "kamahinmihail@gmail.com"
