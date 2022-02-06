@@ -5,8 +5,7 @@
     "ng": "ng",
     "start": "ng serve --open",
     "build": "ng build --no-silent",
-    "build:github": "ng build --configuration github --no-silent",
-    "deploy": "ng deploy --no-silent",
+    "build:github": "ng build --configuration github",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
