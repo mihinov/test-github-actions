@@ -57,7 +57,7 @@
               ],
               "outputHashing": "all"
             },
-						"github": {
+            "github": {
               "budgets": [
                 {
                   "type": "initial",
@@ -127,15 +127,27 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-					"options": {
-						"buildTarget": "github",
-						"baseHref": "test-github-actions",
-						"name": "mihinov",
-						"email": "kamahinmihail@gmail.com"
-					}
+          "options": {
+            "buildTarget": "github",
+            "baseHref": "test-github-actions",
+            "name": "mihinov",
+            "email": "kamahinmihail@gmail.com"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "test-github-actions"
+  "defaultProject": "test-github-actions",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
