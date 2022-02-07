@@ -40,12 +40,12 @@ jobs:
           github-token: ${{ secrets.TOKEN_GITHUB_ACTION }}
           output-file: "false"
 
-      - name: Create Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "release.tar.gz,foo/*.txt"
-          bodyFile: "body.md"
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Create Release
+      #   uses: ncipollo/release-action@v1
+      #   with:
+      #     artifacts: "release.tar.gz,foo/*.txt"
+      #     bodyFile: "body.md"
+      #     token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
