@@ -30,7 +30,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-		console.log(compiled.querySelector('.content span')?.textContent);
     expect(compiled.querySelector('.content span')?.textContent).toContain('test-github-actions app is running!');
   });
 });

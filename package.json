@@ -8,7 +8,8 @@
 		"build": "ng build --base-href /test-github-actions/",
     "build:github": "ng build --configuration github --base-href /test-github-actions/",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+		"test:ChromeHeadless": "ng test --browsers ChromeHeadless"
   },
   "private": true,
   "dependencies": {
