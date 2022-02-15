@@ -9,7 +9,7 @@
     "build:github": "ng build --configuration github --base-href /test-github-actions/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-		"test:ChromeHeadless": "ng test --browsers ChromeHeadless"
+		"test:ChromeHeadless": "ng test --watch=false --browsers ChromeHeadless"
   },
   "private": true,
   "dependencies": {
