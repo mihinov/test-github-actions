@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'test-github-actions';
+	appRuningTitle: string = `${this.title} app is running!`;
 }
