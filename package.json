@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve --open",
     "lint": "ng lint",
-		"build": "ng build --base-href /test-github-actions/",
-    "build:github": "ng build --configuration github --base-href /test-github-actions/",
+		"build": "ng build --configuration production",
+    "build:github": "ng build --configuration github",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
 		"test:ChromeHeadless": "ng test --watch=false --browsers ChromeHeadless"

@@ -55,7 +55,8 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+							"baseHref": "/test-github-actions/"
             },
             "github": {
               "budgets": [
@@ -76,7 +77,8 @@
                   "with": "src/environments/environment.github.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+							"baseHref": "/test-github-actions/"
             },
             "development": {
               "buildOptimizer": false,
